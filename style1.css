@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: blue;
+    background-color: white;
+}
+
+h1:hover{
+    text-shadow: 2px solid blue;
+    color: blue;
+    transition: all 0.7s ease;
+}
